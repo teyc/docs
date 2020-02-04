@@ -5,7 +5,7 @@ This page provides some basic guidance on getting up and running with your first
 You'll need to install the following pre-requisites in order to build SAFE applications
 
 * The [.NET Core SDK 3.0](https://dotnet.microsoft.com/download/dotnet-core/3.0)
-* [FAKE](https://fake.build/) (>= 5.12) installed as global tool (`dotnet tool install -g fake-cli`)
+* [FAKE](https://fake.build/) (>= 5.12) installed as global tool (`dotnet tool install -g fake-cli` or `dotnet tool update -g fake-cli`)
 * [Paket](https://fsprojects.github.io/Paket) installed as global tool (`dotnet tool install paket --add-source https://www.myget.org/F/paket-netcore-as-tool/api/v3/index.json -g`) (optional\*)
 * [node.js](https://nodejs.org/) (>= 8.0)
 * [yarn](https://yarnpkg.com/) (>= 1.10.1\*\*) or [npm](https://www.npmjs.com/)
